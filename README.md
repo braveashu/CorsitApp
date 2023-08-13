@@ -1,4 +1,4 @@
-# corsit_app
+# CORSIT APP
 
 CORSIT Application
 
