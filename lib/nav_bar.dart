@@ -1,6 +1,6 @@
-import 'package:corsit_app/homescreen.dart';
-import 'package:corsit_app/our_team.dart';
-import 'package:corsit_app/robocor_screen.dart';
+import 'package:corsit/homescreen.dart';
+import 'package:corsit/our_team.dart';
+import 'package:corsit/robocor_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart' show FontAwesomeIcons;
 
