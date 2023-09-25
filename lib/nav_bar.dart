@@ -15,7 +15,7 @@ class _NavbarState extends State<Navbar> {
   double screenHeight = 0;
   double screenWidth = 0;
 
-  Color primary = const Color(0xffeef444c);
+  Color primary = const Color.fromRGBO(135, 11, 32, 1);
 
   int currentIndex = 0;
 
@@ -31,6 +31,7 @@ class _NavbarState extends State<Navbar> {
     screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       body: IndexedStack(
+
         index: currentIndex,
         children: [
           const HomeScreen(),
@@ -38,12 +39,15 @@ class _NavbarState extends State<Navbar> {
           const RoboCor(),
         ],
       ),
+      backgroundColor: Color.fromRGBO(135, 11, 32, 1),
+
+
       bottomNavigationBar: Container(
-        height: 70,
+        height: 60,
         margin: const EdgeInsets.only(
           left: 12,
           right: 12,
-          bottom: 24,
+          bottom: 18,
         ),
         decoration: const BoxDecoration(
           color: Colors.white,
